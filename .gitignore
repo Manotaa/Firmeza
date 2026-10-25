@@ -1,0 +1,38 @@
+# Archivos generados por .NET
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+*.suo
+
+# JetBrains Rider
+.idea/
+**/.idea/
+
+# Dependencias de Node.js
+**/node_modules/
+
+# Archivos compilados del frontend
+Frontend/dist/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+**/secrets.json
+
+# Certificados y claves privadas
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+Backend/src/Firmeza.Api/wwwroot/recibos/*.pdf
+
+# Configuracion local de ASP.NET: puede contener secretos
+Backend/src/Firmeza.Api/appsettings.json
+Backend/src/Firmeza.Api/appsettings.Development.json
+Backend/src/Firmeza.Api/wwwroot/recibos/*.pdf
